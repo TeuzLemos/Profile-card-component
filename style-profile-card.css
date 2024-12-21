@@ -14,8 +14,8 @@ html {
     background-image:
         url(images/bg-pattern-top.svg),
         url(images/bg-pattern-bottom.svg);
-    background-size: 600px, 600px;
-    background-position: top -279px left -395px, bottom -229px right -400px;
+    background-size: 600px, 650px;
+    background-position: top -279px left -420px, bottom -318px right -448px;
     background-repeat: no-repeat;
 
     display: flex;
@@ -25,9 +25,12 @@ html {
 }
 
 main {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 350px;
 
     background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
